@@ -1,0 +1,24 @@
+.input_box{
+  display: inline;
+  flex-direction: column;
+  padding: 0 4px 0 4px;
+}
+
+input{
+  height: 6vh;
+  width: 7vw;
+  max-width: 1000px;
+  min-width: 7vw;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid  rgb(116, 210, 233);
+  background-color: white;
+}
+
+
+.parent_input{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
