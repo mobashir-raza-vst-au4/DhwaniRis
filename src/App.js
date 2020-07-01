@@ -86,8 +86,8 @@ export default class App extends Component {
         <span>Card Number*</span>
         <Input reference={(number) => {this.firstCard=number}} id="txt1" value={this.state.input1} onChange={(e) => {this.handleInput1(e)}} />
         <Input reference={(number) => {this.secondCard=number}} id="txt2" value={this.state.input2} onChange={(e) => {this.handleInput2(e)}} />
-        <Input reference={(number) => {this.thirdCard=number}} id="txt2" value={this.state.input3} onChange={(e) => {this.handleInput3(e)}} />
-        <Input reference={(number) => {this.forthCard=number}} id="txt2" value={this.state.input4} onChange={(e) => {this.handleInput4(e)}}/>
+        <Input reference={(number) => {this.thirdCard=number}} id="txt3" value={this.state.input3} onChange={(e) => {this.handleInput3(e)}} />
+        <Input reference={(number) => {this.forthCard=number}} id="txt4" value={this.state.input4} onChange={(e) => {this.handleInput4(e)}}/>
       </div>
     )
   }
